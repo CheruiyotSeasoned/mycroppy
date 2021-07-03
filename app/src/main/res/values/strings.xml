@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">mycroppy</string>
+    <string name="about">"Crop disease detection application. Whether you are an expert or a newbie in farming. Mycroppy got it all. "</string>
+    <string name="title_activity_dos">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="staking">This is done by tying a plant vertically using a string and poles. Two poles are connected using a wire and plants suspended using strings that are tied to it. This method increases the productivity of tomatoes as compared to traditional open-air methods. The plants grow vertically having several fruit clusters along the stem. Support should be done early after transplanting when the plant is still young to avoid stem damage/breaking later on.
+
+Pruning is removing side shoots, old leaves, diseased leaves and laterals. This should be done weekly to remove side shoots before they develop. Weeding should be done regularly as weeds compete for nutrients with the plants
+
+Apply AFRIKELP 40ml/20ltr after each pruning or staking operation, to aid the plant recover from shock.
+
+Harvesting:
+
+The tomatoes should be ready for harvesting as from the 70th day onwards depending on the variety planted. Remove the ripe fruits from the stems carefully and place in clean disinfected containers ready for transport.</string>
+    <string name="con">Scout for signs of Blight, Mildew, Canker. Be careful especially during cool wet conditions when blight is most active. Apply an early spray of  Stage 20ml/20ltrs as a precaution against blight, and repeat after 7 days if conditions are cold and wet. Scout for any signs of disease after this, and apply Stage 250 EW in weekly intervals if noticed. Mix every application with Harmony 30-40ml/20ltrs to aid plant vigour, and recovery from stress.
+
+Check for signs of insect damage every day particularly in warm dry conditions. The most serious pests include spider mite, leaf minor (tuta absoluta), thrips, whitefly, caterpillars and aphids. All of these can cause serious damage and should be controlled as much as possible. Also, check vegetation around edges of the field.
+
+Spray JACKPOT 12.5 ml/20Ltr to control aphids, and worms, particularly at fruit set, before the moths can lay their eggs on the fruits. Spray a mix of ROMECTIN 20ml/20ltre, and IMAXI 12.5ml/ltr to control stubborn leaf minors and red spider mites. Spray BAMAKO 5gms/20ltrs on the crop in the evening and around the edges of the field to control whitefly.
+
+</string>
+    <string name="fert">Top-dress the plants after 4 weeks with CAN or UREA at 50kgs per acre. Keep the field free from weeds particularly in the first 30 days. Avoid hand weeding as this may destroy the delicate roots. Apply AMBAR at 30ml/20ltrs between the rows and plants, to suppress any seed weeds before they sprout, and to kill any growing broad-leafed weeds. Use the appropriate nozzle for best results. AMBAR works best when weeds are not higher than 4 inches and smaller than the tomato plants.
+
+During flower set, apply another dose of Harmony 30-40ml/20ltrs targeting the flower buds. You can also mix with soluble foliar fertilisers which have high potassium and calcium. This will avoid calcium end rot and other related fruit diseases later on, as well as protect against flower/fruit abortion. After flower set, avoid fertilizers which are rich in nitrogen, eg CAN, NPK, Urea.
+
+Irrigate to keep the soil moist, without being soggy or muddy. An irrigation cycle of twice a week using 10,000 to 20,000ltrs per acre is usually sufficient for tomatoes.</string>
+    <string name="field">2 days before removing seedlings from the nursery, apply AFRIKELP (2ml/litre) to the seedlings. This will ensure a faster recovery from transplant shock. Transplanting should be done when seedling stems are between 4-6 mms diameter, or at about 1 foot high. Avoid planting weak and diseased plants.
+
+Plant the seedlings at a spacing of 45cm by 60cms. Dig the planting holes to a depth of 6 inches. If you apply manure, carefully incorporate into the soil before planting. Apply DAP fertilizer at a rate of 80kg per acre. Treat the soil for soil-borne insect pests and soil fusarium wilt by drenching with a mixture of IMAXI 15ml/20Ltr and RODAZIM 20ml/20ltre of water.
+
+Remove the seedlings from the nursery bed after watering well. Keep them in a shaded place, away from direct sunlight. Plant one seedlings in each hole and cover the roots with soil firming the soil around the roots. Water well but not excessively.</string>
+    <string name="bed">Tomatoes perform better when transplanted from a seedbed nursery. They perform better when planted in trays where possible. Preparing a good nursery seedbed is important to ensure good plant establishment and vigorous early growth.
+
+Seedbeds are prepared by raising soil around 15cm high and leave spaces for walkways of around 30cm or more between beds. The soil should be tilled. This is to make it easier for the small seeds to break through. As a precaution against nursery damping off and to give them a boost, soak the seeds in a mixture of AFRIKELP (2ml/litres of water) and RODAZIM (1ml/ltr of water) for 4 minutes before sowing. The seeds should not be buried deep into the soil but should be covered with a very light layer of soil. You can use your finger to draw the lines in which you plant the seeds and covered just slightly with soil.
+
+The spacing between rows should be around 15cm. To increase moisture level, the bed is covered with hay or dry grass. This also reduces splash effect during watering.
+
+Watering is best done in the morning. The seeds are expected to sprout in 8-10 days. The watering should continue until a week or two before transplanting where it is reduced to harden the seedlings. Seedlings will take about one month before they are ready for transplanting. Scout regularly for pests and diseases, because the earlier they are spotted and treated, the better the survival rate.</string>
+    <string name="intro">Tomatoes are an important commercial crop for horticulture farmers in Kenya. The market is strong, and the crop is relatively easy to grow. It is a favourite for greenhouse farmers. The most important factors for success are:
+
+Deep, well-drained soils
+High producing and resistant varieties
+Proper staking
+Control of disease (Blights and Cankers)
+Tomatoes require temperatures from moderate to hot, and humidity moderate to high. Rainfall should be moderate. These conditions are best achieved through irrigation or under greenhouses where possible. They do not do well in cool or soggy conditions.</string>
+    <string name="cap">Want to know what type of disease your plant affected with,then Upload a images of (Tomato, Potato) plants and get to know the disease it posses and the remedies and pratical video explanation to prevent further loss of plants.</string>
+    <string name="oncap">Want to know what type of disease your plant affected with,then Upload a images of (Tomato) plants and get to know the disease it posses and the remedies and pratical video explanation to prevent further loss of plants.</string>
+    <string name="scroll_text">Get the most from your Tomato Farming Tomatoes are an important commercial crop for horticulture farmers in Kenya. The market is strong, and the crop is relatively easy to grow. It is a favourite for greenhouse farmers. The most important factors for success are:  Deep, well-drained soils High producing and resistant varieties Proper staking Control of disease (Blights and Cankers) Tomatoes require temperatures from moderate to hot, and humidity moderate to high. Rainfall should be moderate. These conditions are best achieved through irrigation or under greenhouses where possible. They do not do well in cool or soggy conditions.  Preparing Seed Bed:  Tomatoes perform better when transplanted from a seedbed nursery. They perform better when planted in trays where possible. Preparing a good nursery seedbed is important to ensure good plant establishment and vigorous early growth.  Seedbeds are prepared by raising soil around 15cm high and leave spaces for walkways of around 30cm or more between beds. The soil should be tilled. This is to make it easier for the small seeds to break through. As a precaution against nursery damping off and to give them a boost, soak the seeds in a mixture of AFRIKELP (2ml/litres of water) and RODAZIM (1ml/ltr of water) for 4 minutes before sowing. The seeds should not be buried deep into the soil but should be covered with a very light layer of soil. You can use your finger to draw the lines in which you plant the seeds and covered just slightly with soil.  The spacing between rows should be around 15cm. To increase moisture level, the bed is covered with hay or dry grass. This also reduces splash effect during watering.  Watering is best done in the morning. The seeds are expected to sprout in 8-10 days. The watering should continue until a week or two before transplanting where it is reduced to harden the seedlings. Seedlings will take about one month before they are ready for transplanting. Scout regularly for pests and diseases, because the earlier they are spotted and treated, the better the survival rate.  Field Planting:  2 days before removing seedlings from the nursery, apply AFRIKELP (2ml/litre) to the seedlings. This will ensure a faster recovery from transplant shock. Transplanting should be done when seedling stems are between 4-6 mms diameter, or at about 1 foot high. Avoid planting weak and diseased plants.  Plant the seedlings at a spacing of 45cm by 60cms. Dig the planting holes to a depth of 6 inches. If you apply manure, carefully incorporate into the soil before planting. Apply DAP fertilizer at a rate of 80kg per acre. Treat the soil for soil-borne insect pests and soil fusarium wilt by drenching with a mixture of IMAXI 15ml/20Ltr and RODAZIM 20ml/20ltre of water.  Remove the seedlings from the nursery bed after watering well. Keep them in a shaded place, away from direct sunlight. Plant one seedlings in each hole and cover the roots with soil firming the soil around the roots. Water well but not excessively.  Fertiliser application, irrigation and weeding:  Top-dress the plants after 4 weeks with CAN or UREA at 50kgs per acre. Keep the field free from weeds particularly in the first 30 days. Avoid hand weeding as this may destroy the delicate roots. Apply AMBAR at 30ml/20ltrs between the rows and plants, to suppress any seed weeds before they sprout, and to kill any growing broad-leafed weeds. Use the appropriate nozzle for best results. AMBAR works best when weeds are not higher than 4 inches and smaller than the tomato plants.  During flower set, apply another dose of Harmony 30-40ml/20ltrs targeting the flower buds. You can also mix with soluble foliar fertilisers which have high potassium and calcium. This will avoid calcium end rot and other related fruit diseases later on, as well as protect against flower/fruit abortion. After flower set, avoid fertilizers which are rich in nitrogen, eg CAN, NPK, Urea.  Irrigate to keep the soil moist, without being soggy or muddy. An irrigation cycle of twice a week using 10,000 to 20,000ltrs per acre is usually sufficient for tomatoes.  Pest and Disease Control:  Scout for signs of Blight, Mildew, Canker. Be careful especially during cool wet conditions when blight is most active. Apply an early spray of  Stage 20ml/20ltrs as a precaution against blight, and repeat after 7 days if conditions are cold and wet. Scout for any signs of disease after this, and apply Stage 250 EW in weekly intervals if noticed. Mix every application with Harmony 30-40ml/20ltrs to aid plant vigour, and recovery from stress.  Check for signs of insect damage every day particularly in warm dry conditions. The most serious pests include spider mite, leaf minor (tuta absoluta), thrips, whitefly, caterpillars and aphids. All of these can cause serious damage and should be controlled as much as possible. Also, check vegetation around edges of the field.  Spray JACKPOT 12.5 ml/20Ltr to control aphids, and worms, particularly at fruit set, before the moths can lay their eggs on the fruits. Spray a mix of ROMECTIN 20ml/20ltre, and IMAXI 12.5ml/ltr to control stubborn leaf minors and red spider mites. Spray BAMAKO 5gms/20ltrs on the crop in the evening and around the edges of the field to control whitefly.  Staking and pruning:  This is done by tying a plant vertically using a string and poles. Two poles are connected using a wire and plants suspended using strings that are tied to it. This method increases the productivity of tomatoes as compared to traditional open-air methods. The plants grow vertically having several fruit clusters along the stem. Support should be done early after transplanting when the plant is still young to avoid stem damage/breaking later on.  Pruning is removing side shoots, old leaves, diseased leaves and laterals. This should be done weekly to remove side shoots before they develop. Weeding should be done regularly as weeds compete for nutrients with the plants  Apply AFRIKELP 40ml/20ltr after each pruning or staking operation, to aid the plant recover from shock.  Harvesting:  The tomatoes should be ready for harvesting as from the 70th day onwards depending on the variety planted. Remove the ripe fruits from the stems carefully and place in clean disinfected containers ready for transport.</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

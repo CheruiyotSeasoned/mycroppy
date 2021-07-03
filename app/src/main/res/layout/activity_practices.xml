@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practices">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="198dp"
+                android:height="80dp"
+                android:background="@drawable/get"
+                android:text="Getting the Most From Your Tomato Farming"
+                android:textColor="@color/white"
+                android:padding="70dp"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:height="80dp"
+                android:padding="12dp"
+                android:text="@string/intro"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Preparing Seed Beds"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:height="400dp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:text="@string/bed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Field Planting"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:height="300dp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:text="@string/field"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Fertiliser application, irrigation and weeding:
+
+"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:height="320dp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:text="@string/fert"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pest And Disease Control"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:height="360dp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:text="@string/con"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Staking and Pruning"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                android:height="360dp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:text="@string/staking"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
