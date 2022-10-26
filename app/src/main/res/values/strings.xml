@@ -2,6 +2,16 @@
     <string name="app_name">mycroppy</string>
     <string name="about">"Crop disease detection application. Whether you are an expert or a newbie in farming. Mycroppy got it all. "</string>
     <string name="title_activity_dos">ScrollingActivity</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_profile">Profile</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="reg_no">Reg</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -145,4 +155,5 @@ Tomatoes require temperatures from moderate to hot, and humidity moderate to hig
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="lateblight">Found on tomato and potato plants, late blight is caused by the fungus Phytophthora infestans and is common throughout the United States. True to its name, the disease occurs later in the growing season with symptoms often not appearing until after blossom. Late blight first appears on the lower, older leaves as water-soaked, gray-green spots. As the disease matures, these spots darken and a white fungal growth forms on the undersides. Eventually the entire plant will become infected. Crops can be severely damaged</string>
 </resources>

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "278882448701",
-    "project_id": "mycroppy",
-    "storage_bucket": "mycroppy.appspot.com"
+    "project_number": "728895799652",
+    "project_id": "mycroppy-a8fad",
+    "storage_bucket": "mycroppy-a8fad.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:278882448701:android:03d632a73f11ecf7268154",
+        "mobilesdk_app_id": "1:728895799652:android:844faec36f117224437a71",
         "android_client_info": {
           "package_name": "com.obsuen.mycroppy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "278882448701-pe0e5bn9rs51m8r9etu4c2joi450card.apps.googleusercontent.com",
+          "client_id": "728895799652-r3krbshcfhr7o6uumiroqadvrahj3hl5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB07GHjhQjrI7SiSMPgZOElNt6qHRtw6mA"
+          "current_key": "AIzaSyAm3eMhT-RQ_qL6mu3CVyNb_Jo6o3sc5CU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "278882448701-pe0e5bn9rs51m8r9etu4c2joi450card.apps.googleusercontent.com",
+              "client_id": "728895799652-r3krbshcfhr7o6uumiroqadvrahj3hl5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

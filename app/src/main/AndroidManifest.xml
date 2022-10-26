@@ -2,33 +2,36 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.obsuen.mycroppy">
 
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".RealmDb"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mycroppy">
-        <activity android:name=".ScanDisease"></activity>
         <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Mycroppy.NoActionBar" />
+            android:name=".NewDashBoard"
+            android:exported="false" />
         <activity android:name=".Practices" />
         <activity android:name=".DosAndDonts" />
-        <activity
-            android:name=".Dos"
-            android:label="@string/title_activity_dos"
-            android:theme="@style/Theme.Mycroppy.NoActionBar" />
         <activity android:name=".DashboardActivity" />
-        <activity android:name=".CaptureActivity" />
         <activity android:name=".DiseasesActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SharedAnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

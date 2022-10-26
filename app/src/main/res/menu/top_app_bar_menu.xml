@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/pc"
+        android:title="Favourites"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/addrecord"
+        android:icon="@drawable/addrecord"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search_ic"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:iconTint="@color/white"
+        android:icon="@drawable/more_ic"
+        android:title="More Options"
+        app:showAsAction="never" />
+
+</menu>

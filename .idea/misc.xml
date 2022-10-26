@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/alert_dialog.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/app_bar_layout.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/back_to_home_button.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/button_background_blue.xml" value="0.1395" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/centre_background.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/centre_button.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/d_round_white_background.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/ic_add_img.xml" value="0.1575" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/ic_baseline_filter.xml" value="0.1575" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/ic_baseline_filter_2_24.xml" value="0.1575" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/ic_baseline_filter_3_24.xml" value="0.1575" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/ic_dashboard_white_24dp.xml" value="0.1585" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/loginnew.xml" value="0.1565" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/profile_back_button.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/profile_bk.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/progress_setup.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/relativelayoutround.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/round_dialog.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/round_dialog_background.xml" value="0.1485" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/drawable/rounded_btn.xml" value="0.1575" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/font/normal_font.xml" value="0.22" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/AndroidManifest.xml" value="0.125" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_capture.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_dashboard.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_main.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_main_dash_board.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_main_dashboard.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_new_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_register.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/activity_shared_animation.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/add_diseases.xml" value="0.13" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/alert_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/alert_label_deletechats.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/content_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/dashboard_new.xml" value="0.18" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/dialog_bg.xml" value="0.14375" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/edit_info.xml" value="0.33" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/fragment_first.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/fragment_second.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/fragment_third.xml" value="0.21" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/item_dialog_loading_view.xml" value="0.8625" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/list_disease.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/main_activity.xml" value="0.19" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/newlogin.xml" value="0.14232209737827714" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/splash_screen.xml" value="0.16" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/layout/update.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/menu/another_menu.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/menu/main_activity2.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/menu/menu_bottom.xml" value="0.21" />
+        <entry key="..\:/Users/Developer/StudioProjects/cropify/app/src/main/res/menu/top_app_bar_menu.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

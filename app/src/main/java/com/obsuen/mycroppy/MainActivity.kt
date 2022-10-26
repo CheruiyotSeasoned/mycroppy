@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val login = findViewById<Button>(R.id.loginbutton)
-        val register = findViewById<Button>(R.id.registerbutton)
-
-        val d = findViewById<Button>(R.id.ds)
+        setContentView(R.layout.main_activity)
+        val login = findViewById<Button>(R.id.btn_login)
+        val register = findViewById<Button>(R.id.registerbtn)
+//
+//        val d = findViewById<Button>(R.id.ds)
 
 
         login.setOnClickListener {
@@ -24,9 +24,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
-        d.setOnClickListener {
-            val intent = Intent(this, DashboardActivity::class.java)
-            startActivity(intent)
-        }
+//        d.setOnClickListener {
+//            val intent = Intent(this, DashboardActivity::class.java)
+//            startActivity(intent)
+//        }
 
 }}

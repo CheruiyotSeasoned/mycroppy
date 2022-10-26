@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/button_background_blue"
+    android:focusableInTouchMode="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personalDetailsCard"
+        style="@style/centreLocatorCardDesign"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/gray_scale"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/progressbar"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    app:civ_border_width="2dp"
+                    android:id="@+id/d_img"
+                    android:scaleType="centerCrop"
+                    app:civ_border_color="@color/teal_700"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/profile_round"/>
+
+
+
+                <TextView
+                    android:id="@+id/treename"
+                    style="@style/modifiedEditText"
+                    android:background="@drawable/button_background_blue"
+                    android:hint="profile image"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/my"
+                    android:layout_marginStart="3dp"
+                    android:gravity="left|center"
+                    android:singleLine="true" />
+
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/name"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/emailed"
+                    style="@style/modifiedEditText"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/email"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:id="@+id/txtInputMob"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content">-->
+
+            <!--                <EditText-->
+            <!--                    android:id="@+id/txtMob"-->
+            <!--                    style="@style/modifiedEditText"-->
+            <!--                    android:hint="@string/mobno"-->
+            <!--                    android:inputType="phone" />-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtfname"
+                    style="@style/modifiedEditText"
+                    android:inputType="textPostalAddress"
+                    android:hint="Address" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputMob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtMob"
+                    style="@style/modifiedEditText"
+                    android:hint="@string/mobno"
+                    android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btncancel"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/centre_button"
+                    android:text="CANCEL"
+                    android:textColor="@color/whiteTextColor" />
+
+                <Button
+                    android:id="@+id/btnSend"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/centre_button"
+                    android:text="Save"
+                    android:drawableRight="@drawable/edittick"
+                    android:textColor="@color/whiteTextColor" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>

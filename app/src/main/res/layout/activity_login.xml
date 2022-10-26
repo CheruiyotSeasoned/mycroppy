@@ -1,71 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<FrameLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/crop"
-    tools:context=".LoginActivity">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <ImageView android:src="@drawable/main"-->
+<!--        android:id="@+id/img1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_gravity="center"/>-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/txt1"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="50dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:fontFamily="@font/my"-->
+<!--            android:text="welcome" />-->
 
-    <EditText
-        android:id="@+id/etEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
-        android:backgroundTint="#39937C"
-        android:ems="10"
-        android:hint="Your Email Address"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
+<!--        <ImageView-->
+<!--            android:layout_width="72dp"-->
+<!--            android:layout_height="72dp"-->
+<!--            android:backgroundTint="@color/teal_200"-->
+<!--            android:layout_toEndOf="@id/txt1"-->
+<!--            android:src="@drawable/main" />-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/login"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_below="@id/txt1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:orientation="vertical">-->
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
-        android:ems="10"
-        android:hint="your password"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Please Login"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+<!--            <FrameLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
 
-    <Button
-        android:id="@+id/onloginbutton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="64dp"
-        android:text="Login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+<!--                <com.google.android.material.textfield.TextInputLayout-->
+<!--                    android:id="@+id/emaillayout"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:animateLayoutChanges="true"-->
+<!--                    android:background="@drawable/main"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:paddingStart="5dp"-->
+<!--                    android:visibility="visible">-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--                    <AutoCompleteTextView-->
+<!--                        android:id="@+id/email"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@android:color/transparent"-->
+<!--                        android:hint="Enail"-->
+<!--                        android:inputType="textEmailAddress"-->
+<!--                        android:maxLines="1"-->
+<!--                        android:padding="2dp"-->
+<!--                        android:singleLine="true" />-->
+
+<!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--                <android.support.design.widget.TextInputLayout-->
+<!--                    android:id="@+id/phlayout"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:animateLayoutChanges="true"-->
+<!--                    android:background="@drawable/login_field"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:paddingStart="5dp"-->
+<!--                    android:visibility="gone">-->
+
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/et_ph"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:background="@android:color/transparent"-->
+<!--                        android:ems="10"-->
+<!--                        android:hint="Phone number"-->
+<!--                        android:inputType="phone" />-->
+
+<!--                </android.support.design.widget.TextInputLayout>-->
+
+<!--            </FrameLayout>-->
+
+
+
+<!--            <FrameLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <android.support.design.widget.TextInputLayout-->
+
+<!--                    android:id="@+id/pwdlayout"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+
+<!--                    android:background="@drawable/login_field"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:paddingStart="5dp">-->
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/password"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@android:color/transparent"-->
+<!--                        android:hint="@string/prompt_password"-->
+<!--                        android:imeActionId="6"-->
+<!--                        android:imeActionLabel="@string/action_sign_in_short"-->
+<!--                        android:imeOptions="actionUnspecified"-->
+<!--                        android:inputType="textPassword"-->
+<!--                        android:maxLines="1"-->
+<!--                        android:padding="2dp"-->
+<!--                        android:singleLine="true" />-->
+<!--                </android.support.design.widget.TextInputLayout>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/pwdtoggle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="end|center_vertical"-->
+<!--                    android:text="SHOW"-->
+<!--                    android:layout_marginRight="16dp"-->
+<!--                    android:paddingTop="10dp"-->
+<!--                    />-->
+<!--            </FrameLayout>-->
+
+<!--            <Button-->
+
+<!--                android:id="@+id/email_sign_in_button"-->
+<!--                style="?android:textAppearanceSmall"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:background="@drawable/sausage_button"-->
+<!--                android:text="@string/action_sign_in"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--        </LinearLayout>-->
+<!--    </RelativeLayout>-->
+
+<!--</FrameLayout>-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/crop"-->
+<!--    tools:context=".LoginActivity">-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etEmail"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="64dp"-->
+<!--        android:layout_marginEnd="64dp"-->
+<!--        android:backgroundTint="#39937C"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Your Email Address"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.407"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.182" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etPassword"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="64dp"-->
+<!--        android:layout_marginEnd="64dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="your password"-->
+<!--        android:inputType="textPassword"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.407"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.319" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Please Login"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.094" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/onloginbutton"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="64dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="64dp"-->
+<!--        android:text="Login"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.402"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/etPassword" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+</FrameLayout>

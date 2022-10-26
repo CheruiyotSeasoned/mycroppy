@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedAnimationActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:transitionName="imageTransition"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:layout_below="@id/imageView"
+        android:id="@+id/textView"
+        android:transitionName="textTransition"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:fontFamily="@font/my"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:fontFamily="@font/my"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00CC66"
+        android:textColor="@color/white"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

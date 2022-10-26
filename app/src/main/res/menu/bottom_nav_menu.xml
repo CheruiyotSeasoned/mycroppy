@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/person"
+        android:title="Home"
+        android:contentDescription="Home"
+        android:icon="@drawable/ic_person_outline_white_24dp"/>
+    <item
+        android:id="@+id/home"
+        android:title="Scan"
+        android:contentDescription="Scan"
+        />
+<!--        android:icon="@drawable/ic_home_foreground"/>-->
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_multiline_chart_white_24dp"/>
+<!--        android:icon="@drawable/ic_settings_foreground"/>-->
+</menu>
