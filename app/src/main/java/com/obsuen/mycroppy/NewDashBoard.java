@@ -365,6 +365,7 @@ public class NewDashBoard extends AppCompatActivity implements BottomNavigationV
                 }
                 else {
                     progressbar.setVisibility(View.VISIBLE);
+                    Functions.showLoader(NewDashBoard.this,true,false);
                     uploadprofile(progressbar,filePath,name.getText().toString(),desc.getText().toString(),farm.getText().toString(),phone.getText().toString(),dialog);
                 }
 
@@ -412,6 +413,7 @@ public class NewDashBoard extends AppCompatActivity implements BottomNavigationV
         map.put("phone number",phone);
         mChatRef.child(postId).setValue(map);
         progressbar.setVisibility(View.GONE);
+        Functions.cancelLoader();
 
         Toast.makeText(NewDashBoard.this, "Disease Posted",Toast.LENGTH_SHORT).show();
         dialog.dismiss();

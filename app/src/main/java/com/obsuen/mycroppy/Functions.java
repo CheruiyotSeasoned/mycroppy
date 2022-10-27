@@ -5,6 +5,8 @@ import android.content.Context;
 import android.util.Log;
 import android.view.Window;
 
+import com.gmail.samehadar.iosdialog.CamomileSpinner;
+
 public class Functions {
     public static Dialog dialog;
 
@@ -39,7 +41,7 @@ public class Functions {
         }
         catch (Exception e)
         {
-            Log.d(Constants.tag,"Exception : "+e);
+            Log.d("Constants.tag","Exception : "+e);
         }
     }
 
@@ -49,7 +51,7 @@ public class Functions {
                 dialog.cancel();
             }
         }catch (Exception e){
-            Log.d(Constants.tag,"Exception : "+e);
+            Log.d("Constants.tag","Exception : "+e);
         }
     }
 }

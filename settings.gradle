@@ -1,3 +1,4 @@
 rootProject.name = "mycroppy"
 include ':app'
+include ':iosdialog'
 include ':lib'
