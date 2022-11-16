@@ -12,7 +12,7 @@
         android:id="@+id/title_image"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="2dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,8 +25,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="32dp"
+        android:fontFamily="@font/my"
         android:text="Tomato Early Blight is a disease type affecting Agriculture in Kenya"
         android:textColor="@android:color/black"
         android:textSize="16dp"
@@ -34,14 +35,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/title_image"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/title_image"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/my"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_accuracy"
+        app:layout_constraintTop_toBottomOf="@id/tvheading"
+        android:text="Accuracy :0.9040043"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tv_accuracy"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="16dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/my"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_timestamp"
+        app:layout_constraintTop_toBottomOf="@id/tvheading"
+        android:text="Tuesday 28th 14:50pm"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_margin="8dp"
-        android:background="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_margin="2dp"
+        android:background="@color/dark_gray_background"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_image"
         tools:layout_editor_absoluteX="8dp"/>
 
 

@@ -7,30 +7,29 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".RealmDb"
+        android:name=".helpers.RealmDb"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mycroppy">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4436513707280900~1678238786"/>
         <activity
-            android:name=".NewDashBoard"
+            android:name=".activities.NewDashBoard"
             android:exported="false" />
-        <activity android:name=".Practices" />
-        <activity android:name=".DosAndDonts" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".DiseasesActivity" />
         <activity android:name=".RegisterActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity" />
+
         <activity
-            android:name=".SharedAnimationActivity"
+            android:name=".helpers.SharedAnimationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".helpers.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

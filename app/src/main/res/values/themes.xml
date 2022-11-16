@@ -16,7 +16,7 @@
 
     <style name="RoundCorner" parent="">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">99dp</item>
+        <item name="cornerSize">20dp</item>
 
         <item name="color">@color/white</item>
     </style>

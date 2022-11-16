@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.widget.AppCompatButton
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 
@@ -14,8 +15,8 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
-        val register = findViewById<Button>(R.id.onregisterbutton)
+        setContentView(R.layout.new_register)
+        val register = findViewById<AppCompatButton>(R.id.onregisterbutton)
         register.setOnClickListener{
             signup()
         }

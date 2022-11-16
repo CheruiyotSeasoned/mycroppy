@@ -2,33 +2,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/feeds_fragment"
+        android:title="Feeds"
+        android:icon="@drawable/newsfeeds"
+        android:contentDescription="@string/menu_leaderboard"
+        />
+    <item
         android:id="@+id/dashboard"
         android:title="Tomato Diseases"
         android:contentDescription="@string/menu_dashboard"
-        android:icon="@drawable/ic_dashboard_white_24dp"/>
-
+        android:icon="@drawable/ic_home_white_24dp"/>
     <item
         android:id="@+id/second_fragment"
-        android:title="Scan Disease"
+        android:title="DashBoard"
+        android:icon="@drawable/ic_dashboard_white_24dp"
         android:contentDescription="@string/menu_leaderboard"
         />
 
-<!--    <item-->
-<!--        android:id="@+id/third_fragment"-->
-<!--        android:title="@string/menu_store"-->
-<!--        android:contentDescription="@string/menu_store"-->
-<!--        android:icon="@drawable/ic_store_white_24dp"/>-->
-
-
     <item
+        android:id="@+id/another_fragment"
+        android:title="Notification"
+        android:icon="@drawable/notification_icon"
+        android:contentDescription="@string/menu_leaderboard"
+        />
+
+   <item
         android:id="@+id/fourth_fragment"
         android:title="@string/menu_profile"
         android:contentDescription="@string/menu_profile"
         android:icon="@drawable/ic_person_outline_white_24dp"/>
 
-<!--    <item-->
-<!--        android:id="@+id/fifth_fragment"-->
-<!--        android:title="Practices"-->
-<!--        android:contentDescription="@string/menu_store"-->
-<!--        android:icon="@drawable/ic_store_white_24dp"/>-->
+
 </menu>
